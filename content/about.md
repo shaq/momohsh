@@ -1,9 +1,9 @@
-+++
-title = "Shaquille"
-+++
-##### <small>(said: "<i>sha·kiel</i>")</small>
+---
+title: "Shaquille Momoh"
+---
+##### <small>(said: "<i>sha·kiel mo·mo</i>")</small>
 
-# 👋🏾
+# 👋
 
 I'm a Software Engineer by trade -- with a Bachelors in Computer Science -- currently studying for an MSc in Data Science and Machine Learning @ <a href="http://www.cs.ucl.ac.uk/current_students/specialist_msc_programmes/msc_dsml/"  target="_blank">UCL</a>.
 

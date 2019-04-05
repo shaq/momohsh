@@ -2,13 +2,17 @@
 title: "React.js Notes"
 date: "2018-09-06T18:59:03-04:00"
 draft: "false"
+author: Shaquille
 comments: true
 tags: ["React", "JavaScript"]
 categories: ["code", "tutorial"]
+description: "Just some rough notes from a react youtube tutorial"
 ---
-## (Just some scribbled notes from a react youtube tutorial)
 
-<small>Video: https://www.youtube.com/watch?v=Ke90Tje7VS0</small>
+
+<center>
+[![Learn React - React Crash Course ](https://img.youtube.com/vi/Ke90Tje7VS0/0.jpg)](https://www.youtube.com/watch?v=Ke90Tje7VS0 "Learn React | Programming with Mosh")
+</center>
 
 - A react application consists of components
 	- Components are independent, isolated and resuable.

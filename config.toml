@@ -1,6 +1,6 @@
-baseurl = "about"
-languageCode = "en-us"
-theme = "hugo-theme-hello-friend"
+baseurl = "/about"
+languageCode = "en-gb"
+theme = "hello-friend"
 paginate = 5
 
 [params]
@@ -10,37 +10,53 @@ paginate = 5
   defaultTheme = "dark"
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 1
+  showReadingTime = true
+  disqusShortname = "momohsha"
 
 [languages]
   [languages.en]
     title = "momoh.sh"
-    subtitle = ""
+    subtitle = "aq"
     keywords = "Shaquille Momoh, Shaquille"
     copyright = ""
     menuMore = "more"
-    writtenBy = "Scribbled by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
+    writtenBy = "scribbled by"
+    readMore = "read some more"
+    readOtherPosts = "read my other posts"
+    newerPosts = "newer posts"
+    olderPosts = "older posts"
+    minuteReadingTime = "min read"
 
     [languages.en.params.logo]
-     logoText = ""
-     logoHomeLink = "/about"
+      logoText = ""
+      logoHomeLink = "/about"
     # or
     #
-    # path = "/img/me_animoji.svg"
-    #  alt = "Your example logo alt text"
+      # path = "/static/img/me_animoji.svg"
+      # alt = "animoji of me"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "blog"
         name = "blog"
-        url = "/blog"
+        url = "/posts/"
       [[languages.en.menu.main]]
         identifier = "resume.pdf"
-        name = "resume"
+        name = "resume 🔗"
         url = "/resume.pdf"
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "github 🔗"
+        url = "https://github.com/shaq"
+      [[languages.en.menu.main]]
+        identifier = "twitter"
+        name = "twitter 🔗"
+        url = "https://twitter.com/shaqzle"
+      [[languages.en.menu.main]]
+        identifier = "insta"
+        name = "insta 🔗"
+        url = "https://instagram.com/shaquizzle"
+        target = ""
       [[languages.en.menu.main]]
         identifier = "showcase"
         name = "showcase"
