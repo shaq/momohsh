@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on momoh.sh</title>
+    <link>about/categories/</link>
+    <description>Recent content in Categories on momoh.sh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="about/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code</title>
+      <link>about/categories/code/</link>
+      <pubDate>Thu, 06 Sep 2018 18:59:03 -0400</pubDate>
+      
+      <guid>about/categories/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>about/categories/tutorial/</link>
+      <pubDate>Thu, 06 Sep 2018 18:59:03 -0400</pubDate>
+      
+      <guid>about/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on momoh.sh</title>
+    <link>about/posts/</link>
+    <description>Recent content in Posts on momoh.sh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Sep 2018 18:59:03 -0400</lastBuildDate>
+    
+	<atom:link href="about/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React.js Notes</title>
+      <link>about/posts/code/react-tutorial-notes/</link>
+      <pubDate>Thu, 06 Sep 2018 18:59:03 -0400</pubDate>
+      
+      <guid>about/posts/code/react-tutorial-notes/</guid>
+      <description>(Just some scribbled notes from a react youtube tutorial) Video: https://www.youtube.com/watch?v=Ke90Tje7VS0
+ A react application consists of components  Components are independent, isolated and resuable. Each component is a piece of UI.  Every react application has at least one component - the root. React applications are represented as a tree of components. Components are usually implemented as js class that consists of a state and a render() method.  The state is the data we want to display when the component is rendered The render method describes what the UI should look like.</description>
+    </item>
+    
+    <item>
+      <title>Hello Friend</title>
+      <link>about/posts/hello/</link>
+      <pubDate>Wed, 17 Sep 1986 00:00:00 +0000</pubDate>
+      
+      <guid>about/posts/hello/</guid>
+      <description> &amp;ldquo;Hello, friend?&amp;rdquo; That&amp;rsquo;s lame. Maybe I should give you a name&amp;hellip;
+But that&amp;rsquo;s a slippery slope.
+You&amp;rsquo;re only in my head.
+We have to remember that&amp;hellip;
+Shit.
+It&amp;rsquo;s actually happened.
+I&amp;rsquo;m talking to an imaginary person.
+— Mr. Robot S01E01
+ </description>
+    </item>
+    
+  </channel>
+</rss>
