@@ -1,4 +1,4 @@
-baseurl = "https://www.momoh.sh/"
+baseurl = "https://www.momoh.sh"
 languageCode = "en-gb"
 theme = "hello-friend"
 paginate = 5
