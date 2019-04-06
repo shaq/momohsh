@@ -1,4 +1,4 @@
-baseurl = "https://momohsh.netlify.com/"
+baseurl = "https://momoh.sh"
 languageCode = "en-gb"
 theme = "hello-friend"
 paginate = 5
@@ -57,7 +57,7 @@ paginate = 5
         name = "insta 🔗"
         url = "https://instagram.com/shaquizzle"
         target = ""
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "showcase"
-        url = "/showcase"
+      #[[languages.en.menu.main]]
+        #identifier = "showcase"
+        #name = "showcase"
+        #url = "/showcase"
