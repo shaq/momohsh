@@ -28,7 +28,7 @@ paginate = 5
     minuteReadingTime = "min read"
 
     [languages.en.params.logo]
-      logoText = ""
+      #logoText = ""
       logoHomeLink = "/about"
     # or
     #
