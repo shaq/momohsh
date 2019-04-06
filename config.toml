@@ -32,8 +32,8 @@ paginate = 5
       logoHomeLink = "/about"
     # or
     #
-      # path = "/static/img/me_animoji.svg"
-      # alt = "animoji of me"
+      path = "/static/img/me_animoji.svg"
+      alt = "animoji of me"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
