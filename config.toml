@@ -1,63 +1,132 @@
-baseurl = "/about"
+baseurl = ""
 languageCode = "en-gb"
-theme = "hello-friend"
+theme = "hello-friend-ng"
 paginate = 5
 
+pygmentsCodefences = false
+pygmentsUseClasses = false
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+disqusShortname = "momohsha"
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = true
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Shaquille Momoh"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = ""
+
 [params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # "light" or "dark"
   defaultTheme = "dark"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 1
-  showReadingTime = true
-  disqusShortname = "momohsha"
+  showMenuItems = 0
+
+    # Metadata mostly used in document's head
+  description = "Shaquille's Website"
+  keywords = "personal website, blog, science, machnie learning, artificial intelligence, diversity, development, programming"
+  images = [""]
+
+  gitUrl = "https://github.com/shaq/momohsh/commit/"
+
+  [params.logo]
+    # path = "android-chrome-384x384.png"
+    logoText = "$ cd ~/"
+    logoHomeLink = "/"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/shaqzle/"
+
+  [[params.social]]
+    name = "instagram"
+    url  = "https://instagram.com/shaquizzle/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:aq@momoh.sh"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/shaq/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/shaquillemomoh/"
 
 [languages]
   [languages.en]
-    title = "momoh.sh"
-    subtitle = "aq"
+    title = "Shaquille Momoh"
+    homeSubtitle = "(said: sha·kiel mo·mo)"
     keywords = "Shaquille Momoh, Shaquille"
     copyright = ""
     menuMore = "more"
     writtenBy = "scribbled by"
     readMore = "read some more"
-    readOtherPosts = "read my other posts"
-    newerPosts = "newer posts"
-    olderPosts = "older posts"
-    minuteReadingTime = "min read"
+    readOtherPosts = "other posts"
+    newerPosts = "newer"
+    olderPosts = "older"
 
-    [languages.en.params.logo]
-      logoText = ""
-      logoHomeLink = "/about"
+    # [languages.en.params.logo]
+    #  logoText = ""
+    #  logoHomeLink = "/about"
     # or
     #
-      # path = "/static/img/me_animoji.svg"
-      # alt = "animoji of me"
+    # path = "/img/me_animoji.svg"
+    #  alt = "Your example logo alt text"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "blog"
-        name = "blog"
-        url = "/posts/"
-      [[languages.en.menu.main]]
-        identifier = "resume.pdf"
-        name = "resume 🔗"
-        url = "/resume.pdf"
-      [[languages.en.menu.main]]
-        identifier = "github"
-        name = "github 🔗"
-        url = "https://github.com/shaq"
-      [[languages.en.menu.main]]
-        identifier = "twitter"
-        name = "twitter 🔗"
-        url = "https://twitter.com/shaqzle"
-      [[languages.en.menu.main]]
-        identifier = "insta"
-        name = "insta 🔗"
-        url = "https://instagram.com/shaquizzle"
-        target = ""
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "showcase"
-        url = "/showcase"
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    url = "/posts"
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "about"
+    url        = "/about"
+  
+  [[menu.main]]
+    identifier = "resume.pdf"
+    name = "resume"
+    url = "/resume.pdf"
+  # [[menu.main]]
+  #   identifier = "showcase"
+  #   name = "showcase"
+  #   url = "/showcase"
