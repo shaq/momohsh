@@ -104,37 +104,16 @@ disableHugoGeneratorInject = false
     olderPosts = "older posts"
     minuteReadingTime = "min read"
 
-    [languages.en.params.logo]
-      #logoText = ""
-      logoHomeLink = "/about"
-    # or
-    #
-      path = "/static/img/me_animoji.svg"
-      alt = "animoji of me"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "blog"
-        name = "blog"
-        url = "/posts/"
-      [[languages.en.menu.main]]
-        identifier = "resume.pdf"
-        name = "resume 🔗"
-        url = "/resume.pdf"
-      [[languages.en.menu.main]]
-        identifier = "github"
-        name = "github 🔗"
-        url = "https://github.com/shaq"
-      [[languages.en.menu.main]]
-        identifier = "twitter"
-        name = "twitter 🔗"
-        url = "https://twitter.com/shaqzle"
-      [[languages.en.menu.main]]
-        identifier = "insta"
-        name = "insta 🔗"
-        url = "https://instagram.com/shaquizzle"
-        target = ""
-      #[[languages.en.menu.main]]
-        #identifier = "showcase"
-        #name = "showcase"
-        #url = "/showcase"
+[menu]    
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    url = "/posts/"
+  [[menu.main]]
+    identifier = "resume.pdf"
+    name = "resume"
+    url = "/resume.pdf"
