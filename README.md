@@ -5,5 +5,5 @@
 - Blog and personal wesbite
 
 --------------------------------
-- Built with [GoHugo](https://gohugo.io) &mdash; a static site generator build in [Go](https://golang.org).
-- Published via [Netlify](https://netlify.com) continuous deployment
+- Built using [GoHugo](https://gohugo.io) &mdash; a static site generator built in [Go](https://golang.org).
+- Deployed via [Netlify](https://netlify.com) continuous deployment.
