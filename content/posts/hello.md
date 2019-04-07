@@ -4,6 +4,7 @@ date = "1986-09-17"
 author = "Elliot"
 cover = "hello.jpg"
 description = "\"Hello, friend?\" That's lame. Maybe I should give you a name?"
+draft = “true”
 +++
 
 > "Hello, friend?" That's lame.
@@ -14,8 +15,7 @@ description = "\"Hello, friend?\" That's lame. Maybe I should give you a name?"
 > Shit.  
 > It's actually happened.  
 > I'm talking to an imaginary person.
->
+> 
 > **— Mr. Robot S01E01**
-
 
 
