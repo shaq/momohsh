@@ -59,7 +59,7 @@ disableHugoGeneratorInject = false
 
     # Metadata mostly used in document's head
   description = "Shaquille's Website"
-  keywords = "personal website, blog, science, machnie learning, artificial intelligence, diversity, development, programming"
+  keywords = "personal website, blog, science, machine learning, artificial intelligence, diversity, development, programming"
   images = [""]
 
   gitUrl = "https://github.com/shaq/momohsh/commit/"
