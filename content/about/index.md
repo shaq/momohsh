@@ -3,7 +3,7 @@ title: "About"
 ---
 <!-- # 👋 -->
 
-<!-- {{< image src="/img/headshot.png" alt="shaquille" position="center" style="height:250px;">}} -->
+{{< image src="/logo.png" alt="shaquille" position="center" style="height:250px;">}}
 
 I'm a Software Engineer by trade -- with a Bachelors in Computer Science -- currently studying for an MSc in Data Science and Machine Learning @ <a href="http://www.cs.ucl.ac.uk/current_students/specialist_msc_programmes/msc_dsml/"  target="_blank">UCL</a>.
 
