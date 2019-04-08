@@ -6,7 +6,7 @@ title: "About"
 
 I was born and raised in London and I'm of Nigerian descent.
 
-I'm a Software Engineer by trade — Bachelors in Computer Science from RHUL —  with approximately two years industry experience.  Currently studying for an MSc in Data Science and Machine Learning @ <a href="http://www.cs.ucl.ac.uk/current_students/specialist_msc_programmes/msc_dsml/"  target="_blank">UCL</a>.
+I'm a Software Engineer by trade — Bachelors in Computer Science from [RHUL]("https://cs.rhul.ac.uk/") —  with approximately two years industry experience.  Currently studying for an MSc in Data Science and Machine Learning @ [UCL]("http://www.cs.ucl.ac.uk/current_students/specialist_msc_programmes/msc_dsml/").
 
 Some of my current research interests include: 
 

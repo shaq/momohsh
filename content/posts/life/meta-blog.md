@@ -12,7 +12,7 @@ I’ve never really been into writing. I find that it takes me too long and pers
 
 Having said that, I do believe I have a pretty unique perspective, so it would be a shame not to share at least some parts of it.
 
-Back to answering the original question: I guess you can call this a _Tech blog_? Well, I suppose it depends on your definition of a Tech blog. To clarify, I don’t really plan on doing product reviews/unboxing’s or anything like that — you’re more likely to see setup guides, tutorials, career insights, and walkthroughs.
+Back to answering the original question: I guess you can call this a _Tech blog_? Well, I suppose it depends on your definition of a Tech blog. To clarify, I don’t really plan on doing product reviews/unboxing’s or anything like that — you’re more likely to see setup guides, tutorials, career insights, and code walkthroughs.
 
 So, about that "unique perspective":
 
