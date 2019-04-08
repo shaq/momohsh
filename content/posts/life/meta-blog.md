@@ -3,6 +3,7 @@ title: So what’s this blog for?
 draft: false
 comments: true
 tags: ["life"]
+date: {{ .Date }}
 ---
 
 I don’t really know, to be honest.
