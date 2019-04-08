@@ -21,7 +21,7 @@ So, about that "unique perspective":
 	- To Illustrate, I didn’t have the slightest clue of what Computer Science or programming was until I studied it during my undergrad 😅
 - My cognitive style (basically, the way I think) is non-traditional, which I promise you is __not__ a fancy(/fake-humble) way of saying "I think out of the box".  Put simply, I’ve recently learnt I have various learning "_difficulties_" — I’ll probably touch on some of these in a future post.
 
-In essence, my main aim for this blog is to provide exposure to technology (specifically, computer science, programming, and machine learning) to an audience who otherwise wouldn’t have any other (easily accessible) means. Also, given my cognitive difference, I’ll try and provide insight into some of the ways I’ve tackled/learnt these topics, that you may not have seen elsewhere.
+In essence, my main aim for this blog is to provide exposure to technology (specifically, computer science, programming, and machine learning) to an audience who otherwise wouldn’t have any (easily accessible) means. Also, given my cognitive difference, I’ll try and provide insight into some of the ways I’ve tackled/learnt these topics, that you may not have seen elsewhere.
 
 As always, you can reach me via any of my socials or email, all linked on the [homepage](https://momoh.sh/ "homepage").
 
