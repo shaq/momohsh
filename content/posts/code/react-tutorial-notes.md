@@ -1,7 +1,7 @@
 ---
 title: "React.js Notes"
 date: "2018-09-06T18:59:03-04:00"
-draft: "false"
+draft: true
 author: Shaquille
 comments: true
 tags: ["React", "JavaScript"]
@@ -93,18 +93,18 @@ class Counter extends Component {
 <br/>
 
 - Components go through phases during their lifecycles:
-    1. **Mounting Phase** - when an instant of a component is created and inserted into the DOM
-    	- During this phase, there are a few special methods that we can act for react to automatically call these
-    	- They are called lifecycle hooks
-    		- They allow us to hook into a certain moment during the lifecylce of the component to do something.
-    	- We have: `constructor`, `render`,  `componentDidMount`
-    		- `constructor` is called only once when an instance of that component is created.
-    		- `componentDidMount` is called after the component is rendered into the DOM
-    			- This is a good place to make ajax calls to get data from a server
-    		- React will cause these methods in order
-    2. **Update Phase** - this happens when the state or the props of a component change
-    	- This has two commonly lifecycle hooks: `render`, `componentDidUpdate`
-    		- Again, these two methods are called in order by React
-    3. **Unmounting phase** - this is when a component is removed from the DOM
-    	- Like deleting a counter, for instance
-    	- This has a single commonly used hook: `componentWillUpdate`
+	1. **Mounting Phase** - when an instant of a component is created and inserted into the DOM
+		- During this phase, there are a few special methods that we can act for react to automatically call these
+		- They are called lifecycle hooks
+			- They allow us to hook into a certain moment during the lifecylce of the component to do something.
+		- We have: `constructor`, `render`,  `componentDidMount`
+			- `constructor` is called only once when an instance of that component is created.
+			- `componentDidMount` is called after the component is rendered into the DOM
+				- This is a good place to make ajax calls to get data from a server
+			- React will cause these methods in order
+	2. **Update Phase** - this happens when the state or the props of a component change
+		- This has two commonly lifecycle hooks: `render`, `componentDidUpdate`
+			- Again, these two methods are called in order by React
+	3. **Unmounting phase** - this is when a component is removed from the DOM
+		- Like deleting a counter, for instance
+		- This has a single commonly used hook: `componentWillUpdate`
