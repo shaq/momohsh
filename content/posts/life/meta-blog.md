@@ -3,7 +3,7 @@ title: So what’s this blog for?
 draft: false
 comments: true
 tags: ["life"]
-date: {{ .Date }}
+date: "2019-04-08T02:45:12+01:00"
 ---
 
 I don’t really know, to be honest.
@@ -23,6 +23,6 @@ So, about that "unique perspective":
 
 In essence, my main aim for this blog is to provide exposure to technology (specifically, computer science, programming, and machine learning) to an audience who otherwise wouldn’t have any other (easily accessible) means. Also, given my cognitive difference, I’ll try and provide insight into some of the ways I’ve tackled/learnt these topics, that you may not have seen elsewhere.
 
-As always, you can reach me via any of my socials or email, all linked on the [homepage](https://momoh.sh/).
+As always, you can reach me via any of my socials or email, all linked on the [homepage](https://momoh.sh/ "homepage").
 
 Lastly, if you see this post is really old and I haven’t followed through on any of the above, please hold me to account in the comments below!
