@@ -1,0 +1,47 @@
+@import "themes/hello-friend-ng/assets/scss/_normalize.scss";
+@import "photoposts";
+@import "themes/hello-friend-ng/assets/scss/_prism.scss";
+
+@import "themes/hello-friend-ng/assets/scss/variables";
+@import "themes/hello-friend-ng/assets/scss/mixins";
+@import "themes/hello-friend-ng/assets/scss/fonts";
+@import "themes/hello-friend-ng/assets/scss/buttons";
+
+@import "themes/hello-friend-ng/assets/scss/header";
+@import "logo";
+@import "microposts";
+@import "themes/hello-friend-ng/assets/scss/menu";
+@import "themes/hello-friend-ng/assets/scss/_main.scss";
+@import "themes/hello-friend-ng/assets/scss/list";
+@import "themes/hello-friend-ng/assets/scss/single";
+@import "themes/hello-friend-ng/assets/scss/footer";
+
+li {
+    list-style: none;
+}
+
+.divider {
+    -webkit-columns: 2 150px;
+    -moz-columns: 2 150px;
+    columns: 2 150px;
+    -webkit-column-gap: 5em;
+    -moz-column-gap: 5em;
+    column-gap: 5em;
+    -webkit-column-rule-width: 4px;
+    -moz-column-rule-width: 4px;
+    column-rule-width: 4px;
+    -webkit-column-rule-color: #fe9051;
+    -moz-column-rule-color: #fe9051;
+    column-rule-color: #fe9051;
+    margin: 2em auto 5em;
+}
+.divider-dotted {
+    -webkit-column-rule-style: dotted;
+    -moz-column-rule-style: dotted;
+    column-rule-style: dotted;
+}
+
+h2 {
+padding: auto;
+text-align: center;
+}

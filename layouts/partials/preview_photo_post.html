@@ -1,0 +1,15 @@
+<article class="photo">
+    <div>
+        <div class="photo title">
+        <span><a href="{{ .Permalink }}">{{ .Title }}</a></span>
+        </div>
+        <span class="postmeta">
+        {{ with .Params.location }}Shot in {{ . }} on {{ end }}
+        <time datetime="{{ .Date }}" pubdate="">{{ .Date.Format "January 2, 2006" }}</time>
+        {{ with .Params.camera }} with {{ . }}{{ end }}
+        </span>
+        <div class="content">
+        <a href="{{ .Permalink }}">{{ .Summary }}</a>
+        </div>
+    </div>
+</article>

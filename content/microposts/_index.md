@@ -1,0 +1,4 @@
+---
+type: "micropost"
+layout: "micropost"
+---

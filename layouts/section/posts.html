@@ -1,0 +1,17 @@
+{{define "main"}}
+    {{ partial "base-section.html" . }}
+    <div>
+        <div class="divider divider-dotted">
+            <h2>Categories</h2>
+            {{ range $key, $value := .Site.Taxonomies.categories }}
+                <li class="grow"><a href="/categories/{{ $key | urlize  }}">{{ $key | humanize }}</a> ({{ len $value }})</li>
+            {{ end }}
+        </div>
+        <div class="divider divider-dotted">
+            <h2>Tags</h2>
+            {{ range $key, $value := .Site.Taxonomies.tags }}
+                <li class="grow"><a href="/tags/{{ $key | urlize  }}">{{ $key | humanize }}</a> ({{ len $value }})</li>
+            {{ end }}
+        </div>
+    </div>
+{{end}}
