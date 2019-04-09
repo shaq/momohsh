@@ -1,0 +1,28 @@
+{{define "main"}}
+<main class="posts">
+    <h1>{{ .Title }}</h1>
+
+    {{- if .Content }}
+        <div class="content">{{ .Content }}</div>
+    {{- end }}
+
+    {{- range .Data.Pages.GroupByDate "2006" }}
+        <div class="posts-group">
+            <div class="post-year">{{ .Key }}</div>
+
+            <ul class="posts-list">
+                {{- range .Pages }}
+                    <li class="post-item">
+                        <a>
+                            <article class="micropost grow">
+                                {{ .Content }}
+                                <a><aside class="post-day">→ {{ .Date.Format "2006/01/02 3:04 PM" }}</aside></a>
+                            </article>
+                        </a>
+                    </li>
+                {{- end }}
+            </ul>
+        </div>
+    {{- end }}
+</main>
+{{end}}

@@ -1,0 +1,31 @@
+.micropost {
+    background-color: #fe9051;
+    margin: auto auto;
+    padding: 10px;
+    max-width: 780px;
+    -webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    
+  }
+
+  .micropost > p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    text-align: justify;
+  }
+  
+  .micropost > a {
+    font-size: 12px;
+    color: #666666;;
+    margin: 0;
+  }
+
+  .micropost p > a {
+    text-decoration: underline; 
+  }
+
+.grow { transition: all .08s ease-in-out; }
+.grow:hover { transform: scale(1.05); }

@@ -1,7 +1,7 @@
 ---
 title: "React.js Notes"
 date: "2018-09-06T18:59:03-04:00"
-draft: true
+draft:  true
 author: Shaquille
 comments: true
 tags: ["React", "JavaScript"]

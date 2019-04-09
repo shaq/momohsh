@@ -1,13 +1,14 @@
 baseurl = "https://www.momoh.sh/"
 languageCode = "en-gb"
 theme = "hello-friend-ng"
-paginate = 5
+title = "Shaquille's Weblog"
+paginate = 10
 
 pygmentsCodefences = false
 pygmentsUseClasses = false
 
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 googleAnalytics = "UA-137823237-1"
 disqusShortname = "momohsh"
@@ -36,14 +37,18 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Shaquille Momoh"
+  FirstName = "Shaquille"
+  LastName = "Momoh"
+  Location = "London, UK"
+  Email = "aq@mommoh.sh"
 
 [blackfriday]
   hrefTargetBlank = true
 
 [taxonomies]
   tag      = "tags"
-  category = ""
+  category = "categories"
+  series = "series"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -54,19 +59,29 @@ disableHugoGeneratorInject = false
   contentTypeName = "posts"
   # "light" or "dark"
   defaultTheme = "dark"
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 0
 
-    # Metadata mostly used in document's head
-  description = "Shaquille's Website"
-  keywords = "personal website, blog, science, machine learning, artificial intelligence, diversity, development, programming"
+  # Metadata mostly used in document's head
+  description = "Shaquille's Weblog"
+  keywords = "weblog, blog, science, machine learning, artificial intelligence, diversity, development, programming"
   images = [""]
 
   gitUrl = "https://github.com/shaq/momohsh/commit/"
 
+  homeTitle = "Shaquille Momoh"
+  homeSubtitle = "(said: sha·kiel mo·mo)"
+  copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  menuMore = "more"
+  writtenBy = "scribbled by"
+  readMore = "read some more"
+  readOtherPosts = "other posts"
+  newerPosts = "newer posts"
+  olderPosts = "older posts"
+  minuteReadingTime = "min read"
+  RSSSections = ["posts", "microposts", "photos"]
+
   [params.logo]
     # path = "android-chrome-384x384.png"
-    logoText = "$ cd ~/"
+    logoText = "# cd ~/"
     logoHomeLink = "/"
 
   # Social icons
@@ -90,30 +105,24 @@ disableHugoGeneratorInject = false
     name = "linkedin"
     url  = "https://www.linkedin.com/in/shaquillemomoh/"
 
-[languages]
-  [languages.en]
-    title = "Shaquille Momoh"
-    homeSubtitle = "(said: sha·kiel mo·mo)"
-    keywords = "Shaquille Momoh, Shaquille"
-    copyright = ""
-    menuMore = "more"
-    writtenBy = "scribbled by"
-    readMore = "read some more"
-    readOtherPosts = "read my other posts"
-    newerPosts = "newer posts"
-    olderPosts = "older posts"
-    minuteReadingTime = "min read"
-
 [menu]    
   [[menu.main]]
     identifier = "about"
     name = "about"
     url = "/about"
   [[menu.main]]
-    identifier = "blog"
+    identifier = "microposts"
+    name = "microblog"
+    url = "/microposts/"
+  [[menu.main]]
+    identifier = "posts"
     name = "blog"
     url = "/posts/"
   [[menu.main]]
+    identifier = "photos"
+    name = "photoblog"
+    url = "/photos/"
+  [[menu.main]]
     identifier = "resume.pdf"
-    name = "resume"
+    # name = "resume"
     url = "/resume.pdf"

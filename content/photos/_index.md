@@ -1,0 +1,4 @@
+---
+type: "photo"
+layout: "photo"
+---

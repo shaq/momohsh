@@ -2,7 +2,7 @@
 title: So what’s this blog for?
 draft: false
 comments: true
-tags: ["life"]
+categories: ["life"]
 date: "2019-04-08T02:45:12+01:00"
 ---
 
