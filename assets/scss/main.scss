@@ -33,7 +33,9 @@ li {
     -webkit-column-rule-color: #fe9051;
     -moz-column-rule-color: #fe9051;
     column-rule-color: #fe9051;
-    margin: 2em auto 5em;
+    margin: 5em auto 7em
+    
+    
 }
 .divider-dotted {
     -webkit-column-rule-style: dotted;
@@ -42,6 +44,7 @@ li {
 }
 
 h2 {
-padding: auto;
-text-align: center;
+    padding: auto;
+    margin: auto auto;
+    text-align: center;
 }
