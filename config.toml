@@ -80,7 +80,6 @@ disableHugoGeneratorInject = false
   RSSSections = ["posts", "microposts", "photos"]
 
   [params.logo]
-    # path = "android-chrome-384x384.png"
     logoText = "# cd ~/"
     logoHomeLink = "/"
 
