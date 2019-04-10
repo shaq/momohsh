@@ -1,4 +1,6 @@
+{{ define "main" }}
 <article class="micropost">
         {{ .Content }}
         <a href='{{ .Permalink }}'><aside class="post-day">→ {{ .Date.Format "2006/01/02 3:04 PM" }}</aside></a>
 </article>
+{{ end }}
