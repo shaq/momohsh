@@ -1,18 +1,12 @@
 {{define "main"}}
 <main class="posts">
-    <h1>{{ .Title }}</h1>
-
-    {{- if .Content }}
-        <div class="content">{{ .Summary }}</div>
-    {{- end }}
-
     {{- range .Data.Pages.GroupByDate "2006" }}
         <div class="posts-group">
             <div class="post-year">{{ .Key }}</div>
 
             <ul class="posts-list">
                 {{- range .Pages }}
-                    <li class="content post-item">
+                    <li class="content">
                         <a>
                             {{ partial "preview_micropost.html" . }}
                         </a>
