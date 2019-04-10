@@ -1,7 +1,0 @@
----
-layout: 'micropost'
-date: '2019-04-10 02:48'
-title: ''
-slug: '2019-04-10T02:48:49+01:00'
----
-Testing micropost publishing using drafts and shortcuts... 🤔
