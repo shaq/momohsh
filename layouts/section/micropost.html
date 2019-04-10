@@ -3,7 +3,7 @@
     <h1>{{ .Title }}</h1>
 
     {{- if .Content }}
-        <div class="content">{{ .Content }}</div>
+        <div class="content">{{ .Summary }}</div>
     {{- end }}
 
     {{- range .Data.Pages.GroupByDate "2006" }}
@@ -12,8 +12,8 @@
 
             <ul class="posts-list">
                 {{- range .Pages }}
-                    <li class="content">
-                        <a class="post-item">
+                    <li class="content post-item">
+                        <a>
                             {{ partial "preview_micropost.html" . }}
                         </a>
                     </li>
