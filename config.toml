@@ -122,7 +122,7 @@ disableHugoGeneratorInject = false
     url = "/about"
   [[menu.main]]
     identifier = "microposts"
-    name = "microblog"
+    name = "musings"
     url = "/microposts/"
   [[menu.main]]
     identifier = "posts"
@@ -130,7 +130,7 @@ disableHugoGeneratorInject = false
     url = "/posts/"
   [[menu.main]]
     identifier = "photos"
-    name = "photoblog"
+    name = "photos"
     url = "/photos/"
   [[menu.main]]
     identifier = "resume.pdf"
