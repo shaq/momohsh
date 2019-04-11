@@ -37,6 +37,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
+  name = "Shaquille Momoh"
   FirstName = "Shaquille"
   LastName = "Momoh"
   Location = "London, UK"
