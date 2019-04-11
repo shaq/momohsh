@@ -6,4 +6,4 @@
 	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
 [submodule "themes/hugo-jf2"]
 	path = themes/hugo-jf2
-	url = https://github.com/kaushalmodi/hugo-jf2.git
+	url = https://github.com/shaq/hugo-jf2.git
