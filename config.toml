@@ -125,3 +125,6 @@ disableHugoGeneratorInject = false
     identifier = "resume.pdf"
     # name = "resume"
     url = "/resume.pdf"
+  [[menu.main]]
+    identifier = "media"
+    url = "/media/"
