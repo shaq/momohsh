@@ -1,6 +1,6 @@
 baseurl = "https://www.momoh.sh/"
 languageCode = "en-gb"
-theme = "hello-friend-ng"
+theme = ["hugo-jf2", "hello-friend-ng"]
 title = "Shaquille's Weblog"
 paginate = 10
 
@@ -15,7 +15,7 @@ disqusShortname = "momohsh"
 
 archetypeDir = "archetypes"
 contentDir   = "content"
-dataDir      = "data"
+dataDir      = "media"
 layoutDir    = "layouts"
 publishDir   = "public"
 
@@ -49,6 +49,16 @@ disableHugoGeneratorInject = false
   tag      = "tags"
   category = "categories"
   series = "series"
+
+[outputs]
+  # <domain>/jf2feed.json
+  home = ["HTML", "RSS", "JF2Feed"]     # default = ["HTML", "RSS"]
+  # <domain>/posts/jf2feed.json
+  section = ["HTML", "RSS", "JF2Feed"]  # default = ["HTML", "RSS"]
+  # <domain>/tags/mytag/jf2feed.json, <domain>/categories/mycat/jf2feed.json
+  taxonomy = ["HTML", "RSS", "JF2Feed"] # default = ["HTML", "RSS"]
+  # <domain>/posts/mypost/jf2post.json
+  page = ["HTML", "JF2Post"]    
 
 [params]
   dateform        = "Jan 2, 2006"
