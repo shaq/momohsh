@@ -16,7 +16,7 @@ Some of my current research interests include:
 - Psychiatric diagnosis and treatment.
 - AI Safety & Ethics.
 
-The goal of this site is to serve as “homepage”, meaning I want it to encapsulate anything I wish to share about my life, professional & personal.
+The goal of this site is to serve as my “homepage”, meaning I want it to encapsulate anything I wish to share about my life, professional & personal.
 
 Feel free to [reach out to me][1]; I'll try and respond within a couple days.
 
