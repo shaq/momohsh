@@ -62,8 +62,6 @@ disableHugoGeneratorInject = false
   page = ["HTML", "JF2Post"]    
 
 [params]
-  talkyardServerUrl = "https://forum.momoh.sh"
-  talkyardScriptUrl = "https://c1.ty-cdn.net/-/talkyard-comments.min.js"
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
