@@ -2,7 +2,7 @@ baseurl = "https://www.momoh.sh/"
 languageCode = "en-gb"
 theme = ["hugo-jf2", "hello-friend-ng"]
 title = "Shaquille's Weblog"
-paginate = 10
+paginate = 5
 
 pygmentsCodefences = false
 pygmentsUseClasses = false
@@ -32,6 +32,8 @@ disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
+
+footnoteReturnLinkContents = "↩"
 
 [permalinks]
   posts = "/posts/:year/:month/:title/"
@@ -69,7 +71,7 @@ disableHugoGeneratorInject = false
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # "light" or "dark"
-  defaultTheme = "dark"
+  defaultTheme = "light"
 
   # Metadata mostly used in document's head
   description = "Shaquille's Weblog"
@@ -88,7 +90,7 @@ disableHugoGeneratorInject = false
   newerPosts = "newer posts"
   olderPosts = "older posts"
   minuteReadingTime = "min read"
-  mainSections = ["posts", "micropost", "photos"]
+  mainSections = ["posts", "micropost", "photos", "media"]
 
   [params.logo]
     logoText = "# cd ~/"
@@ -134,7 +136,6 @@ disableHugoGeneratorInject = false
     url = "/photos/"
   [[menu.main]]
     identifier = "resume.pdf"
-    # name = "resume"
     url = "/resume.pdf"
   [[menu.main]]
     identifier = "media"

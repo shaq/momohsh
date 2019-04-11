@@ -66,9 +66,9 @@ font-size: 10pt;
 color: #999999;
 }
 
-.post-group-item:hover {
-background-color: #f6f6f6;
-}
+// .post-group-item:hover {
+// background-color: #f6f6f6;
+// }
 
 .post-group-item h3 {
 color: #999999;
@@ -84,7 +84,8 @@ margin: 0;
 padding: 0 0 0 6px;
 }
 
-// .content {
-//     flex: 1;
-// }
+.content {
+    flex: 1;
+    padding: 5px;
+}
 

@@ -15,6 +15,19 @@
         </div>
     </div>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/bigfoot.js"></script>
+<script type="text/javascript">
+    var bigfoot = $.bigfoot(
+        {
+            actionOriginalFN: "ignore",
+            activateOnHover: true,
+            deleteOnUnhover: true,
+            positionContent: true
+        }
+    );
+</script>
 {{ if or .Params.math .Site.Params.math }}
 {{ partial "math.html" . }}
 {{ end }}
+{{ partial "javascript.html" . }}
