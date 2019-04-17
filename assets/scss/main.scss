@@ -10,6 +10,7 @@
 @import "themes/hello-friend-ng/assets/scss/header";
 @import "logo";
 @import "microposts";
+@import "bigfoot-number";
 @import "themes/hello-friend-ng/assets/scss/menu";
 @import "themes/hello-friend-ng/assets/scss/_main.scss";
 @import "themes/hello-friend-ng/assets/scss/list";
@@ -30,8 +31,8 @@
     -moz-column-rule-color: #fe9051;
     column-rule-color: #fe9051;
     margin: 5em auto 7em
-    
-    
+
+
 }
 .divider-dotted {
     -webkit-column-rule-style: dotted;

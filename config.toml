@@ -1,8 +1,8 @@
 baseurl = "https://www.momoh.sh/"
 languageCode = "en-gb"
-theme = "hello-friend-ng"
+theme = ["hugo-jf2", "hello-friend-ng"]
 title = "Shaquille's Weblog"
-paginate = 10
+paginate = 5
 
 pygmentsCodefences = false
 pygmentsUseClasses = false
@@ -15,7 +15,7 @@ disqusShortname = "momohsh"
 
 archetypeDir = "archetypes"
 contentDir   = "content"
-dataDir      = "data"
+dataDir      = "media"
 layoutDir    = "layouts"
 publishDir   = "public"
 
@@ -33,10 +33,13 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
+footnoteReturnLinkContents = "↩"
+
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
 [author]
+  name = "Shaquille Momoh"
   FirstName = "Shaquille"
   LastName = "Momoh"
   Location = "London, UK"
@@ -50,6 +53,16 @@ disableHugoGeneratorInject = false
   category = "categories"
   series = "series"
 
+[outputs]
+  # <domain>/jf2feed.json
+  home = ["HTML", "RSS", "JF2Feed"]     # default = ["HTML", "RSS"]
+  # <domain>/posts/jf2feed.json
+  section = ["HTML", "RSS", "JF2Feed"]  # default = ["HTML", "RSS"]
+  # <domain>/tags/mytag/jf2feed.json, <domain>/categories/mycat/jf2feed.json
+  taxonomy = ["HTML", "RSS", "JF2Feed"] # default = ["HTML", "RSS"]
+  # <domain>/posts/mypost/jf2post.json
+  page = ["HTML", "JF2Post"]
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -58,7 +71,7 @@ disableHugoGeneratorInject = false
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # "light" or "dark"
-  defaultTheme = "dark"
+  defaultTheme = "light"
 
   # Metadata mostly used in document's head
   description = "Shaquille's Weblog"
@@ -77,7 +90,7 @@ disableHugoGeneratorInject = false
   newerPosts = "newer posts"
   olderPosts = "older posts"
   minuteReadingTime = "min read"
-  RSSSections = ["posts", "microposts", "photos"]
+  mainSections = ["posts", "micropost", "photos", "media"]
 
   [params.logo]
     logoText = "# cd ~/"
@@ -104,14 +117,14 @@ disableHugoGeneratorInject = false
     name = "linkedin"
     url  = "https://www.linkedin.com/in/shaquillemomoh/"
 
-[menu]    
+[menu]
   [[menu.main]]
     identifier = "about"
     name = "about"
     url = "/about"
   [[menu.main]]
     identifier = "microposts"
-    name = "microblog"
+    name = "musings"
     url = "/microposts/"
   [[menu.main]]
     identifier = "posts"
@@ -119,11 +132,10 @@ disableHugoGeneratorInject = false
     url = "/posts/"
   [[menu.main]]
     identifier = "photos"
-    name = "photoblog"
+    name = "photos"
     url = "/photos/"
   [[menu.main]]
     identifier = "resume.pdf"
-    # name = "resume"
     url = "/resume.pdf"
   [[menu.main]]
     identifier = "media"

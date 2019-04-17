@@ -15,6 +15,7 @@
         </div>
     </div>
 </footer>
+{{ partial "barefoot.html" . }}
 {{ if or .Params.math .Site.Params.math }}
 {{ partial "math.html" . }}
 {{ end }}
