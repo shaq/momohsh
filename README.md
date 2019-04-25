@@ -7,4 +7,4 @@
 --------------------------------
 - Built using [Hugo](https://gohugo.io) &mdash; a static site generator built in [Go](https://golang.org).
 - Theme adapted from [@rhazdon's](https://atlialp.com/) [hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng) and [@jnjosh's](https://jnjosh.com) [internet-weblog](https://github.com/jnjosh/internet-weblog).
-- Deployed via [Netlify](https://netlify.com) continuous integration.
+- Published via [Netlify](https://netlify.com) continuous deployment.

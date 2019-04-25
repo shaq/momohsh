@@ -10,7 +10,7 @@ I'm a Software Engineer by trade — Bachelors in Computer Science from [RHUL](h
 
 Some of my current research interests include: 
 
-- Deep Reinforcement Learning
+- Deep Reinforcement Learning.
 - Affective computing for physiological monitoring.
 - Structural Bioinformatics.
 - Psychiatric diagnosis and treatment.
